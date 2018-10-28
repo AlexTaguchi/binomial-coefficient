@@ -23,19 +23,19 @@ relations learned in school, although this is hardly appreciated:
 ![](pascals_triangle.png)
 
 By defining each element as the sum of its upper-left and upper-right elements,
-each row describes the solution to the binomial expansion of (x+1)<sup>n</sup>:
-- n = 0: <b>1</b>
-- n = 1: <b>1</b>x + <b>1</b>
-- n = 2: <b>1</b>x<sup>2</sup> + <b>2</b>x + <b>1</b>
-- n = 3: <b>1</b>x<sup>3</sup> + <b>3</b>x<sup>2</sup> + <b>3</b>x + <b>1</b>
-- n = 4: <b>1</b>x<sup>4</sup> + <b>4</b>x<sup>3</sup> + <b>6</b>x<sup>2</sup> + <b>4</b>x + <b>1</b>
+each row describes the solution to the binomial expansion of (1+x)<sup>n</sup>:
+- (1+x)<sup>0</sup> = <b>1</b>
+- (1+x)<sup>1</sup> = <b>1</b>x + <b>1</b>
+- (1+x)<sup>2</sup> = <b>1</b>x<sup>2</sup> + <b>2</b>x + <b>1</b>
+- (1+x)<sup>3</sup> = <b>1</b>x<sup>3</sup> + <b>3</b>x<sup>2</sup> + <b>3</b>x + <b>1</b>
+- (1+x)<sup>4</sup> = <b>1</b>x<sup>4</sup> + <b>4</b>x<sup>3</sup> + <b>6</b>x<sup>2</sup> + <b>4</b>x + <b>1</b>
 
 These coefficients are in fact the same binomial coefficients used before for calculating
 the number of combinations:
 
 ![](binomial_expansion.svg)
 
-where in this case n is the power of n in (x+1)<sup>n</sup>, and k is the power of the
+where in this case n is the power of n in (1+x)<sup>n</sup>, and k is the power of the
 corresponding term in the polynomial expansion.
 
 Having established the relationship (and equivalence) of Pascal's triangle and the
