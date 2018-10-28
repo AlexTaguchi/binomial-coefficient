@@ -22,8 +22,8 @@ relations learned in school, although this is hardly appreciated:
 
 ![](pascals_triangle.png)
 
-By defining each element as the sum of its upper-left and upper-right parent elements,
-each row describes the solutions to the binomial expansion of (x+1)<sup>n</sup>:
+By defining each element as the sum of its upper-left and upper-right elements,
+each row describes the solution to the binomial expansion of (x+1)<sup>n</sup>:
 - n = 0: <b>1</b>
 - n = 1: <b>1</b>x + <b>1</b>
 - n = 2: <b>1</b>x<sup>2</sup> + <b>2</b>x + <b>1</b>
