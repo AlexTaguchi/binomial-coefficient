@@ -47,6 +47,7 @@ These coefficients are in fact the same binomial coefficients used before for ca
 the number of combinations:
 
 ![](binomial_expansion.svg)
+
 where in this case n is the power of n in (1+x)<sup>n</sup>, and k is the power of the
 corresponding term in the polynomial expansion.
 
@@ -84,6 +85,7 @@ But what if the coin is unfair? This only requires a small tweak, finally leadin
 the binomial distribution formula:
 
 ![](binomial_distribution_unfair.gif)
+
 giving the probability of X equal to k, where p is the probability of a successful event.
 
 References
