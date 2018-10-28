@@ -10,9 +10,22 @@ of obtaining <i>n</i> successes given <i>N</i> Bernoulli trials (e.g. flipping a
 
 Permutations and Combinations
 ---
+Image a line of people waiting to get into a movie theater. The total number of
+<i>permutations</i>, or ways to order the people in the line, is n! =
+n•(n-1)•(n-2)•...•2•1.
 
+However, in this situation we really only care about how many people get in before the
+theater fills up. If there are only k seats available, and n people waiting in line, how
+many possible <i>combinations</i> of people can we get into the theater? Only the first
+k people will make it in. The answer is thus to take the total number of permutations n!
+divided by the permutations that the first k people can take k! (because we don't care
+how they are arranged) divided also by the number of permutations the people who don't
+make it in take (n-k)! (because we also don't care how they are arranged):
 
 ![](binomial_coefficient.svg)
+
+The vertical stacking of n and k is read "n-choose-k", and is known as the binomial
+coefficient.
 
 Binomial Expansion
 ---
@@ -56,18 +69,26 @@ The binomial coefficient describes the number of possible combinations that resu
 n choose k, and can therefore be used to construct a full binomial distribution as a
 function of k. For example, what is the probability of flipping heads 3 times and tails
 7 times, regardless of the order of the events? We need to count up all the possible
-combinations of events to get 3 heads and 7 tails:
+combinations of events to get 3 heads and 7 tails (10-choose-3).
 
 
-and then we have to divide this by the total number of possible combinations for all
+Then we have to divide this by the total number of possible combinations for all
 possible values of k. Thankfully, this can be computed simply as 2<sup>10</sup>,
 leading to another import combinatorics equation:
 
-
-This leads us to the following equation to describe this discrete probability distribution:
+![](binomial_sum.png)
 
 Plot of the discrete binomial probability distribution for 10 coin flips:
 
-But what if the coin is unfair? This only requires a small tweak, finally leading us to the binomial distribution formula:
+![](binomial_distribution_fair.jpg)
 
-Plot of the binomial distribution for  flipping an unfair coin 10 times with only a 45% chance of landing heads:
+But what if the coin is unfair? This only requires a small tweak, finally leading us to
+the binomial distribution formula:
+
+![](binomial_distribution_unfair.gif)
+
+References
+---
+- Python Algorithms: Mastering Basic Algorithms in the Python Language - Magnus Lie Hetland
+- Mathematical figures: https://en.wikipedia.org/wiki/Binomial_coefficient
+- Binomial distribution figure: http://esa21.kennesaw.edu/modules/basics/exercise3/3-6.htm
