@@ -71,7 +71,6 @@ function of k. For example, what is the probability of flipping heads 3 times an
 7 times, regardless of the order of the events? We need to count up all the possible
 combinations of events to get 3 heads and 7 tails (10-choose-3).
 
-
 Then we have to divide this by the total number of possible combinations for all
 possible values of k. Thankfully, this can be computed simply as 2<sup>10</sup>,
 leading to another import combinatorics equation:
@@ -86,6 +85,8 @@ But what if the coin is unfair? This only requires a small tweak, finally leadin
 the binomial distribution formula:
 
 ![](binomial_distribution_unfair.gif)
+
+giving the probability of X equal to k, where p is the probability of a successful event.
 
 References
 ---
