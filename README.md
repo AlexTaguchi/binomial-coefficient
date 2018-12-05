@@ -88,6 +88,19 @@ the binomial distribution formula:
 
 giving the probability of X equal to k, where p is the probability of a successful event.
 
+Poisson Distribution
+---
+As a final side note, in the limiting case where the probability of a successful event is
+small and the number of trials becomes very large, the Binomial distribution simplifies
+into the Poisson distribution:
+
+
+
+where k is the number of times a successful event occurs within a set interval and lambda
+is the average number of events per interval. One useful property of both the Binomial
+and Poisson distributions is the expected value is readily calculated as p*n and lambda,
+respectively.
+
 References
 ---
 - Python Algorithms: Mastering Basic Algorithms in the Python Language - Magnus Lie Hetland
