@@ -94,7 +94,7 @@ As a final side note, in the limiting case where the probability of a successful
 small and the number of trials becomes very large, the Binomial distribution simplifies
 into the Poisson distribution:
 
-
+![](poisson_distribution.svg)
 
 where k is the number of times a successful event occurs within a set interval and lambda
 is the average number of events per interval. One useful property of both the Binomial
