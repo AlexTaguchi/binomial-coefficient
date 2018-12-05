@@ -106,3 +106,4 @@ References
 - Python Algorithms: Mastering Basic Algorithms in the Python Language - Magnus Lie Hetland
 - Mathematical figures: https://en.wikipedia.org/wiki/Binomial_coefficient
 - Binomial distribution figure: http://esa21.kennesaw.edu/modules/basics/exercise3/3-6.htm
+- Poisson distribution figure: https://en.wikipedia.org/wiki/Poisson_distribution
