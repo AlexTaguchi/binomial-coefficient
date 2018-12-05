@@ -98,8 +98,8 @@ into the Poisson distribution:
 
 where k is the number of times a successful event occurs within a set interval and lambda
 is the average number of events per interval. One useful property of both the Binomial
-and Poisson distributions is the expected value is readily calculated as p*n and lambda,
-respectively.
+and Poisson distributions is the expected value is the maximum of the distribution (p*n
+and lambda, respectively).
 
 References
 ---
